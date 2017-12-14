@@ -35,6 +35,8 @@ body {
     max-width: 90%;
     
     margin: 0 auto;
+    
+    overflow-x: hidden;
 }
 
 
@@ -253,6 +255,7 @@ a {
 /* Hero Slider */
 #accueil {
     position: relative;
+    overflow-x: hidden;
     
     padding-top: 6rem;
 }
