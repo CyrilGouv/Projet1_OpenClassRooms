@@ -828,7 +828,11 @@ input, textarea {
     
     border: 1px solid #e8e8e8;
     border-radius: 2px;
-} 
+}
+
+input:focus, textarea:focus {
+    outline-color: var(--blue);
+}
 
 
 textarea {
