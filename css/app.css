@@ -159,6 +159,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    overflow-x: hidden;
 }
 
 
@@ -195,11 +197,11 @@ a {
     display: block;
     content: "";
     
-    top: -1.5rem;
+    top: -1.25rem;
     left: 0;
     right: 0;
     
-    width: 0;
+    width: 0%;
     height: 3px;
     background-color: var(--blue);
     
